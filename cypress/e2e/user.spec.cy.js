@@ -1,10 +1,7 @@
-import loginPage from './page/loginPage';
-import dashboardPage from './page/dashboardPage';
-import menuPage from './page/menuPage';
-import myInfoPage from './page/myInfoPage';
-
-
-
+import LoginPage from './page/loginPage';
+import DashboardPage from './page/dashboardPage';
+import MenuPage from './page/menuPage';
+import MyInfoPage from './page/myInfoPage';
 const selectorsList = {
   usernameField: "[name='username']",
   passwordField: "[name='password']",
